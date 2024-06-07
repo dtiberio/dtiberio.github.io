@@ -48,3 +48,9 @@ ul.posts li {
 .blurb {
     margin-bottom: 40px;
 }
+
+.repo-link {
+            color: blue;
+            margin-left: 15px;
+            font-size: 0.8em;
+}
