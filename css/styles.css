@@ -41,6 +41,10 @@ ul.posts li {
     font-size: 1.5em;
 }
 
+ul.posts li a {
+    font-size: 1.5em; /* Increase the font size as needed */
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -53,5 +57,5 @@ ul.posts li {
 .repo-link {
             color: blue;
             margin-left: 15px;
-            font-size: 0.8em;
+            font-size: 1.2em;
 }
