@@ -8,3 +8,14 @@
     margin-bottom: 10px; /* Optional: add space between list items */
 }
 
+.repo-link {
+    color: blue;
+    margin-left: 15px;
+    font-size: 1em;
+    text-decoration: none; /* Optionally remove underline */
+}
+
+.repo-link:hover {
+    color: darkblue; /* Change color on hover */
+    text-decoration: underline; /* Optionally add underline on hover */
+}

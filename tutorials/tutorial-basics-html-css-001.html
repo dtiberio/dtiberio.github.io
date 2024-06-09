@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tutorial on structuring a basic HTML file, displaying images and links, and styling a website with CSS.">
+    <title>Tutorial: Basic HTML and CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: white;
+            padding: 2em;
+            margin: 2em 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #f1f1f1;
+            padding: 1em;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+            header {
+                padding: 0.5em;
+            }
+            section {
+                padding: 1em;
+                margin: 1em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tutorial: Basic HTML and CSS</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section id="structure">
+            <h2>Structuring a Basic HTML File</h2>
+            <p>To create a basic HTML file, you need the following structure:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Your Title Here&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            <p>This basic structure includes the document type declaration, the HTML tag with a language attribute, a head section with meta tags and a title, and a body section containing your content.</p>
+        </section>
+
+        <section id="images-links">
+            <h2>Showing Images and Links</h2>
+            <p>To display images and links, you can use the following HTML tags:</p>
+            
+            <h3>Displaying an Image</h3>
+            <p>Use the <code>&lt;img&gt;</code> tag to display an image. Here’s an example:</p>
+            <pre><code>&lt;img src="https://via.placeholder.com/150" alt="Placeholder Image"&gt;</code></pre>
+            <p>This code will display an image from the provided URL. Always include the <code>alt</code> attribute to describe the image.</p>
+
+            <h3>Creating a Link</h3>
+            <p>Use the <code>&lt;a&gt;</code> tag to create a link. Here’s an example:</p>
+            <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+            <p>This code creates a clickable link that takes the user to the specified URL.</p>
+        </section>
+
+        <section id="styling">
+            <h2>Styling a Website with CSS</h2>
+            <p>You can style your website using CSS. Here’s an example of how to include CSS in your HTML file:</p>
+            <pre><code>&lt;style&gt;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+section {
+    background: white;
+    padding: 2em;
+    margin: 2em 0;
+}
+&lt;/style&gt;</code></pre>
+            <p>This CSS code styles the body, header, container, and section elements. You can customize these styles to fit your design needs.</p>
+        </section>
+
+        <section id="learmore">
+            <p>To learn more about HTML and CSS:</p>
+            <p>Please visit <a href="https://www.w3schools.com/">W3Schools</a>.</p>
+            <p>Try this tutorial at  <a href="https://realpython.com/html-css-python/">RealPython</a>.</p>
+        </section>
+            
+        <footer>
+            <div class="container">
+                <p>Powered by HTML and CSS</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
