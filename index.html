@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dtiberio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#my-home" class="repo-link">Home </a></li>
-            <li><a href="#my-tutorials" class="repo-link">Tutorials</a></li>
-            <li><a href="#my-about-section" class="repo-link">About me</a></li>
-            <li><a href="https://www.linkedin.com/in/duartepires/" class="repo-link">My LinkedIn</a></li>
-        </ul>
+    <nav class="navbar is-light">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#my-home">Home</a>
+            <a class="navbar-item" href="#my-tutorials">Tutorials</a>
+            <a class="navbar-item" href="#my-about-section">About me</a>
+            <a class="navbar-item" href="https://www.linkedin.com/in/duartepires/">My LinkedIn</a>
+        </div>
     </nav>
     <div class="container">
-        <div class="blurb">
-            <h1 id="my-home">There's no place like home</h1>
-            <p></p>
-            <p>You can find here a short description about each of my <a href="my-github-repos.html" class="repo-link">GitHub repos</a></p>
-            
+        <div class="section">
+            <h1 id="my-home" class="title">There's no place like home</h1>
+            <p>You can find here a short description about each of my <a href="my-github-repos.html" class="has-text-link">GitHub repos</a></p>
         </div>
-        <div class="blurb">
-            <h1 id="my-tutorials">Tutorials</h1>
+        <div class="section">
+            <h1 id="my-tutorials" class="title">Tutorials</h1>
             <p>This is a list of tutorials about programming in Python:</p>
             <ul>
-                <li><a href="tutorials/tutorial-beautifulsoupt-001.html" class="repo-link">Web scraping with the Beautiful Soup library</a></li>
-                <li><a href="tutorials/tutorial-mysqlconnector-001.html" class="repo-link">Using the mysql.connector library</a></li>
+                <li><a href="tutorials/tutorial-beautifulsoupt-001.html" class="has-text-link">Web scraping with the Beautiful Soup library</a></li>
+                <li><a href="tutorials/tutorial-mysqlconnector-001.html" class="has-text-link">Using the mysql.connector library</a></li>
             </ul>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <p id="my-about-section">About me:</p>
+    <footer class="footer">
+        <div class="content">
+            <p id="my-about-section" class="title is-5">About me:</p>
             <ul>
                 <li>There's nothing</li>
                 <li>interesting</li>
